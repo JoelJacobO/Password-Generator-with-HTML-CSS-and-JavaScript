@@ -95,6 +95,10 @@ main {
 .password-input span {
   cursor: pointer;
   display: inline-block;
+  transition: color 0.3s ease;
+}
+.password-input span:hover {
+  color: var(--grey-200);
 }
 .wrapper .password-content {
   margin-top: 1.6rem;
