@@ -37,6 +37,7 @@ body {
   font-weight: 700;
   font-size: 1.6rem;
   background-color: var(--grey-850);
+  overflow-x: hidden;
 }
 main {
   max-width: 100vw;
