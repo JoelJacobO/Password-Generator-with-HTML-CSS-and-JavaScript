@@ -52,9 +52,9 @@ function updateSlider() {
 }
 function updatePasswordStrength() {
   passStrengthDiv.id =
-    lengthSlider.value <= 7
+    lengthSlider.value <= 5
       ? "weak"
-      : lengthSlider.value <= 13
+      : lengthSlider.value <= 10
       ? "medium"
       : "strong";
 
