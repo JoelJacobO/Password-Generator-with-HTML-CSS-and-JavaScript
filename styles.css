@@ -88,7 +88,7 @@ main {
   color: var(--green-200);
 }
 .password-input .input-icon-copied {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 
@@ -292,7 +292,7 @@ main {
 @media (min-width: 37.5em) {
   .container {
     width: 54rem;
-    padding: 2.4rem 3.2rem;
+    padding-inline: 3.2rem;
   }
   .container h2 {
     font-size: 2.4rem;
@@ -305,7 +305,7 @@ main {
   .password-length .details span {
     right: 3.2rem;
   }
-  .password-input .input-icon-copied,
+  .password-input,
   .password-length .details p,
   .password-character .options,
   .password-strength .password-strength-title {
@@ -314,5 +314,10 @@ main {
   .wrapper .password-content {
     margin-top: 2.4rem;
     padding: 2.4rem 3.2rem;
+  }
+}
+@media (min-width: 75em) {
+  .container {
+    padding-top: 2.4rem;
   }
 }
